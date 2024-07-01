@@ -25,7 +25,7 @@ const Hero = () => {
                   speed: 450
                 }}
               >
-                <div className='w-[170px] h-[170px] rounded-full bg-cover bg-[url("/src/assets/1000000514-2.jpg")] border-2 border-[#0066CC]' />
+                <div className='w-[100px] h-[100px] md:w-[140px] md:h-[140px] lg:w-[170px] lg:h-[170px] xl:w-[180px] xl:h-[180px] rounded-full bg-cover bg-[url("/src/assets/1000000514-2.jpg")] border-2 border-[#0066CC]' />
               </div>
             </motion.div>
           </Tilt>
@@ -33,13 +33,13 @@ const Hero = () => {
         </div>
 
         <div className=''>
-          <h1 className={`${styles.heroHeadText} text-[#EDEDED] ml-8 mt-7`}>Hi, I'm <span className='text-[#0066CC]'>Alex</span></h1>
-          <p className={`${styles.heroSubText}  text-[#EDEDED] ml-8 `}>
+          <h1 className={`${styles.heroHeadText} text-[#EDEDED] ml-3 sm:ml-5 lg:ml-5 lg:ml-7 xl:ml-8 mt-7`}>Hi, I'm <span className='text-[#0066CC]'>Alex</span></h1>
+          <p className={`${styles.heroSubText}  text-[#EDEDED] ml-3 sm:ml-5 lg:ml-5 lg:ml-7 xl:ml-8`}>
             I'm a junior JavaScript developer
           </p>
 
-          <div className=''>
-            <img className=" h-auto w-[800px]" src={canvas} alt="computer" />
+          <div className=' h-auto w-[300px] sm:w-[500px] xl:w-[800px]'>
+            <img className="" src={canvas} alt="computer" />
           </div>
         </div>
       </div>

@@ -22,12 +22,12 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         }}
         className='bg-[#000033] p-5 rounded-2xl sm:w-[360px] xs:w-[340px] w-full'
       >
-        <div className="relative w-full h-[230px]  mb-9">
+        <div className="relative w-full h-[230px]  mb-[65px]">
 
           <img src={image} alt={name} className="w-full h-auto object-cover rounded-2xl" />
         </div>
 
-        <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+        <div className="absolute inset-0 flex justify-end m-7 card-img_hover">
           <div
             onClick={(event) => {
               event.preventDefault();
