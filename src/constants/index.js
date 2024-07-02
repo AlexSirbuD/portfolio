@@ -22,6 +22,9 @@ import {
   django,
   trello,
   reactDjango,
+  projectBurger,
+  pigGame,
+  card,
   threejs,
   gitHub,
   location,
@@ -55,7 +58,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer (Python)",
+    title: "Python/Django",
     icon: backend,
   },
   {
@@ -176,6 +179,48 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Clone Burger page",
+    description:
+      "A clone of a web page of an existing service with interesting functionality. You can chouse your extra toppings, souces and other burger parts wich comes with greate animations and give you the full price of you burger.",
+    tags: [
+      {
+        name: "alexsirbud.github.io/Mentor_project_Burger/",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: projectBurger,
+    source_code_link: "https://github.com/AlexSirbuD/Mentor_project_Burger",
+  },
+  {
+    name: "Pig Game",
+    description:
+      "A fairly simple game created in Java Script. Players take turns to roll a single dice as many times as they wish, adding all roll results to a running total, but losing their gained score for the turn if they roll a 1.",
+    tags: [
+      {
+        name: "https://alexsirbud.github.io/Pig-Game/",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: pigGame,
+    source_code_link: "github.com/AlexSirbuD/Pig-Game",
+  },
+  {
+    name: "Card",
+    description:
+      "Dynamic and beautiful visualization of a bank card, where you can write the card number, name, expiration date and CVC.",
+    tags: [
+      {
+        name: "https://alexsirbud.github.io/Mentor_Project1/",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: card,
+    source_code_link: "github.com/AlexSirbuD/Mentor_Project1",
+  },
   {
     name: "E-commerce",
     description:

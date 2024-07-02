@@ -38,7 +38,7 @@ const Hero = () => {
             I'm a junior JavaScript developer
           </p>
 
-          <div className=' h-auto w-[300px] sm:w-[500px] xl:w-[800px]'>
+          <div className=' h-auto w-[300px] sm:w-[500px] xl:w-[800px] 2xl:w-[1000px]'>
             <img className="" src={canvas} alt="computer" />
           </div>
         </div>

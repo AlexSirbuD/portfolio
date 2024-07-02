@@ -37,6 +37,9 @@ import orange from "./Orange_logo.svg.png";
 import django from "./Django.jpg";
 import trello from "./trello.jpg";
 import reactDjango from "./ReactDjango.jpg";
+import projectBurger from "./Screenshot_5.jpg";
+import pigGame from "./Screenshot_6.jpg";
+import card from "./Screenshot_15.jpg";
 
 export {
   canvas,
@@ -67,6 +70,9 @@ export {
   orange,
   django,
   trello,
+  projectBurger,
+  pigGame,
+  card,
   reactDjango,
   gitHub,
   location,
